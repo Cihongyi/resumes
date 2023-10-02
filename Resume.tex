@@ -1,0 +1,291 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth} {l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Large HONGYI CI} \\ \vspace{4pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:8622551116}{+1 (862)255-1116}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:cihongyi123@gmail.com}{cihongyi123@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/hongyi-ci-931032195/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/Cihongyi}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/The+Eddy,+Harrison/@40.7420366,-74.165037,17z/data=!3m1!4b1!4m6!3m5!1s0x89c255bab47782fb:0x5ac66b39a885f672!8m2!3d40.7420326!4d-74.1624621!16s%2Fg%2F11qzyw448m?entry=ttu}{Newark, USA}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Rutgers University}
+    {Newark, NJ, USA}
+    {Master of Quantitative Finance;   \textbf{GPA: 3.93/4.00}}
+    {Sep 2022 \textbf{--} May 2024}
+    
+
+    \resumeEducationHeading
+    {The Hong Kong Polytechnic University}
+    {Hong Kong, China}
+    {BBA. Accounting and Finance; \textbf{GPA: 3.53/4.30}}    {Sep 2018 \textbf{--} Jun 2022}
+    {Minor in Applied Mathematics}                {Sep 2019 \textbf{--} Jun 2022}
+    
+    
+      
+    
+   
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {ING Financial Service}{New York, NY, USA}
+      {FI/FM Risk Management Intern}{Jun 2023 \textbf{--} Present}
+        \resumeItemListStart
+            \resumeItem{Developed a reporting system for trading support and risk management. Used streamlit and dash framework for front-end, and pyodbc for back-end. Shortened the reporting process from 1 hour to 3 minutes.}
+            \resumeItem{Proposed and used polynomial interpolation to model term structures, and integrated it into current system.}
+            \resumeItem{Reseached, tested, and documented new VaR benchmark. Performed parameters validation. Proposed to use new testing method. Under reviewing by Regulators.}
+            \resumeItem{Responsible for day-to-day Capital risk charge monitoring and whistle blowing. Improved the reporting program by setting up a backup database. Cooperated with finance team and other interns to make the new system. }
+            
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Quantrio Research Capital}{Newark, NJ, USA (remote)}
+      {Quantitative research intern}{Jan 2023 \textbf{--} Present}
+        \resumeItemListStart
+            \resumeItem{Proposed an alpha factor based on volume-price co-movement. Used advanced calculus to take integration of PDEs and resulted an alpha modelled by Hyperbolic functions. The alpha has a 10-year ICIR to be 0.25.}
+            \resumeItem{Developed a backtesting framework in Python, to calculate and reports features of different factors and portfolios, including VaR, returns, ICs, turnover rate, and exposure to risk factors.}
+            \resumeItem{Working on multi-factor portfolio optimization, constructing objective functions and selecting optimizers to maximize portfolio performance and reduce exposure to risk factors.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {SooChow Securities Inc. }{Shanghai, China}
+      {Quantitative research intern}{May 2021 \textbf{--} Aug 2021}
+      
+        \resumeItemListStart
+            \resumeItem{Resaeched on private placement in China, performed data processing using Python, communicated with supervisors, participated in project management, and drafted a research report.}
+            \resumeItem{Created an index to tracking returns of private placement transactions. Distributed Safety mat returns among holding periods to improve accuracy of private placement index as an indicator.}
+            \resumeItem{Designed a model based on risk parity theory by SciPy to plot effective frontiers before and after including private placement index as an investment instrument, suggested values of private placement in assets management.}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+
+
+    \resumeProjectHeading
+    {\textbf{National Undergraduate Innovation and Entrepreneurship Training Program}}{}
+      \resumeItemListStart
+        \resumeItem{Collaborated with a team of researchers from Nanjing University on an in-depth investigation into the relationships between High Frequency Trading (HFT) and Extreme Price Movements, leading to statistically significant results. Currently, the team's findings are being reviewed for publication.}
+        \resumeItem{Applied CoVaR (Conditional Value at Risk) as a metric to quantify and visualize the spillover effects of individual financial institutions on overall market risk. This analysis provided critical insights into the interconnectedness of the financial system.}
+        \resumeItem{Developed a model to estimate the number of withdrawal orders, employing logistic regression to assess the probability of extreme price movements for single stocks. Utilized quantile regression to estimate Value at Risk (VaR) for stocks, further enriching the risk management framework.}
+        \resumeItem{Addressed endogeneity concerns by proposing the use of intra-day volatility as an instrumental variable, showcasing a thoughtful approach to addressing complex research challenges.}
+        \resumeItem{Successfully processed and analyzed an extensive dataset of three years' worth of order book data for 200 stocks, totaling 30GB. Calculated proxy variables to measure HFT intensity, effectively optimizing program performance through the implementation of Multiprocessing techniques in Python, resulting in an impressive 99\% reduction in processing time. Established a robust and efficient database using the SQLalchemy Lib to manage and store the vast amount of data.}
+      \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Time Series Analysis Course Project}}{}
+          \resumeItemListStart
+            \resumeItem{Developed and backtested a High Frequency Trading strategy utilizing order book data, achieving a commendable win rate of 64\% and an average return of 210 basis points over 30-minute periods.}
+            \resumeItem{Employed Poisson regression to model fluctuations in ask-bid spreads and utilized logistic regression to estimate the likelihood of buyer or seller initiation in the subsequent period.}
+            \resumeItem{Conducted model validation by employing various assumptions and evaluating Mean Absolute Error (MAE) metrics, ultimately selecting the most effective model. Notably, the chosen model assumed a martingale process for the midpoint price and estimated ask-bid spread changes using Poisson regression.}
+          \resumeItemListEnd
+      
+        \resumeProjectHeading
+        {\textbf{Option Pricing Project by Monte Carlo Simulation}}{}
+          \resumeItemListStart
+            \resumeItem{Developed an option pricing program using C++ that utilized Monte Carlo Simulation to model price movements under the risk-neutral assumption.}
+            \resumeItem{Implemented a range of inherited classes to accurately price diverse types of options, such as American Options, Asian Options, and various Exotic Options. These classes encapsulated the specific pricing logic and catered to the unique characteristics of each option type.}
+            \resumeItem{Demonstrated proficiency in object-oriented programming principles by designing the program with planned Polymorphism features. This design choice facilitated seamless comparison and analysis of different option types within the system.}
+          \resumeItemListEnd
+
+
+        \resumeProjectHeading
+        {\textbf{McGill International Portfolio Challenge}}{}
+        \resumeItemListStart
+            \resumeItem{Designed a comprehensive Net zero strategy based on data provided. Constructed a portfolio by risk-parity model with Carbon emission restrictions. Identified optimization objectives and applied Multiple-Objective-Optimization (MOO) method to optimize the portfolio.}
+        \resumeItemListEnd
+      
+
+        \resumeProjectHeading
+        {\textbf{ESG investment strategy}}{}
+        \resumeItemListStart
+            \resumeItem{Developed an ESG investment strategy with SR to be 1.67. Completed a proposal to summarize this strategy. Discovered altogether 64 ESG factors, including pure ESG rating scores, industrial neutralized ESG factors, and non-linear factors (distinguished stocks with mid-level ESG scores). }
+            \resumeItem{Applied IC weighting and Symmetric Orthogonalization (reduce the collinearity among factors) methods to optimize strategy and improved Sharpe Ratio by 0.8.}
+        \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills \& Courseworks}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming Languages:}{ Python, C/C++, R, SQL, Java, C\#} \\ \vspace{3pt}
+        
+        \textbf{Models:}{ XGBoost, Logistic regression, SVM, GLM, hierarchical clustering, KDT, K-means, Deep learning} \\ \vspace{3pt}
+
+        \textbf{Courseworks:}{ Stochastic calculus, Data mining, Machine learning, Fixed income, Derivatives, Risk management, Time series analysis, Econometrics, Advanced financial accounting} \\ \vspace{3pt}
+        
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+
+\end{document}
